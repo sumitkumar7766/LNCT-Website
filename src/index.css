@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Styles to make dropdown appear on hover */
+.dropdown:hover .dropdown-menu {
+  display: block; 
+}
+
+/* Optional: Style to make dropdown hide on mouseout of parent dropdown */
+.dropdown:hover .dropdown-toggle {
+}
+
+/* Added style to hide menu when no longer hovering over parent*/
+.dropdown .dropdown-menu {
+  display: none; 
+}
+
+#navbarDropdown {
+  width: 250px !important;
+}
+
+.nav-item:hover {
+  background-color: rgb(33, 33, 33);
+  transition: background-color 0.5s;
+  .nav-link:hover {
+    color: white;
+    transition: color 0.5s;
+  }
+}

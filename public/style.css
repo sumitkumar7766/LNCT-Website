@@ -1,0 +1,15 @@
+body {
+    background-image: url(https://res.cloudinary.com/dbq93byo2/image/upload/v1745850927/7_eyn0td.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
