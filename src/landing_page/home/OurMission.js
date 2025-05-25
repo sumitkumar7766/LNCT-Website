@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function OurMission() {
     return (
-        <div className="container mt-5 pt-5">
+        <div className="container pt-5 mt-5">
             <div className="row">
                 <div className="col-12 col-lg-4"></div>
                 <div className="col-12 col-lg-4 text-light">
@@ -12,7 +12,7 @@ function OurMission() {
                 </div>
                 <div className="col-12 col-lg-4"></div>
             </div>
-            <div className="row m-5" id="missiondiv">
+            <div className="row mt-5" id="missiondiv">
                 <div className="col text-light">
                     <h2 className="pt-2">Vision</h2>
                     <p className="pt-3 fs-6" id="missionulofli">To be a premier institute where engineering education and research converge to produce engineers as responsible citizens.</p>

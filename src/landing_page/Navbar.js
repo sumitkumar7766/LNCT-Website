@@ -16,13 +16,14 @@ function Navbar() {
                         />
                     </Link>
                     <button
-                        class="navbar-toggler"
+                        class="navbar-toggler text-light"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        style={{backgroundColor: "white"}}
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>

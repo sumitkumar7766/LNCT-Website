@@ -172,3 +172,24 @@ code {
 #Experienceimg img {
   width: 100%;
 }
+
+#hoverfortheProvImage:hover {
+  background-color: rgba(137, 43, 226, 0.36);
+  cursor: pointer;
+}
+
+#wehave {
+    background: linear-gradient(90deg, red,rgb(0, 255, 247), rgb(174, 61, 255), violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#hoverthetablechangecolorAdv:hover {
+  background: linear-gradient(90deg, red, orange, yellow, green, rgb(0, 255, 247), rgb(174, 61, 255), violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
