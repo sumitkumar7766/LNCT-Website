@@ -9,6 +9,7 @@ import News from "./News";
 import Experience from "../Experience";
 import Provides from "./Provides";
 import Advantage from "./Advantage";
+import Footer from "../Footer";
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
         <Credo />
         <Experience />
         <Provides />
+        <Footer />
         </>
     )
 }

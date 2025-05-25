@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function News() {
     return (
         <div className="container mb-5">
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-12">
                     <button className="btnofthenews">NEWS AND MEDIA</button>
                     <hr className="hrofthenews" />

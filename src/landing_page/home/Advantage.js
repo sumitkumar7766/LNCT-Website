@@ -16,7 +16,7 @@ function Advantage() {
                                 <td className="col-1 align-middle text-light bg-transparent border-bottom" id="hoverthetablechangecolorAdv">
                                     <p className="fs-5 fw-bold d-flex align-items-center">
                                         Explore our state-of-the-art facilities: Idea Lab, Electric Vehicle Lab, and Drone Lab.
-                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-right-to-bracket"></i></p>
+                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-circle-check" id="giveSymbleColor"></i></p>
                                     </p>
                                 </td>
                             </tr>
@@ -24,28 +24,28 @@ function Advantage() {
                                 <td className="col-1 align-middle text-light bg-transparent border-bottom" id="hoverthetablechangecolorAdv">
                                     <p className="fs-5 fw-bold d-flex align-items-center">
                                         30+ Clubs/Chapters for Technical, Sports, Research, StartUps, Placements
-                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-right-to-bracket"></i></p>
+                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-circle-check" id="giveSymbleColor"></i></p>
                                     </p>
                                 </td>                            </tr>
                             <tr style={{ height: "100px" }}>
                                 <td className="col-1 align-middle text-light bg-transparent border-bottom" id="hoverthetablechangecolorAdv">
                                     <p className="fs-5 fw-bold d-flex align-items-center">
                                         KLICK, EDIIC & AIIC Innovation & Entrepreneurship Centers to foster startup ideas
-                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-right-to-bracket"></i></p>
+                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-circle-check" id="giveSymbleColor"></i></p>
                                     </p>
                                 </td>                            </tr>
                             <tr style={{ height: "100px" }}>
                                 <td className="col-1 align-middle text-light bg-transparent border-bottom" id="hoverthetablechangecolorAdv">
                                     <p className="fs-5 fw-bold d-flex align-items-center">
-                                        Coursera, NPTEL Courses for Global Exposure & Knowledge
-                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-right-to-bracket"></i></p>
+                                        Coursera, NPTEL Courses for Global Exposure & Knowledge &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-circle-check" id="giveSymbleColor"></i></p>
                                     </p>
                                 </td>                            </tr>
                             <tr style={{ height: "100px" }}>
                                 <td className="col-1 align-middle text-light bg-transparent border-bottom" id="hoverthetablechangecolorAdv">
                                     <p className="fs-5 fw-bold d-flex align-items-center">
                                         260+ Recruiters like Amazon, Wipro, IBM, Cognizant, CapeGemini
-                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-right-to-bracket"></i></p>
+                                        <p className="text-light fs-2 ps-2"><i class="fa-solid fa-circle-check" id="giveSymbleColor"></i></p>
                                     </p>
                                 </td>                            </tr>
                         </tbody>
