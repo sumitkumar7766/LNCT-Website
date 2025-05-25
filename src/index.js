@@ -5,11 +5,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
-import Home from './landing_page/home/home';
+import Home from './landing_page/home/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Navbar />
+    <Home />
   </BrowserRouter>
 );

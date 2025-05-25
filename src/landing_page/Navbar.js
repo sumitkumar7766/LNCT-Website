@@ -28,32 +28,33 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-lg-0">
-                            <li class="nav-item "><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/home">Home</Link></li>
-                            <li class="nav-item"><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/aboutus">About Us</Link></li>
+                            <li class="nav-item "><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/home">Home</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/aboutus">About Us</Link></li>
                             <li class="nav-item dropdown text-light">
-                                <a class="nav-link dropdown-toggle text-light fs-5 ps-3 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-light fs-6 ps-3 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Institutions
                                 </a>
                                 <ul class="dropdown-menu" id="navbarDropdown">
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT University</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT & Science</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT Excellence</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT MBA</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT MCA</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT Bhopal Indore Campus</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT Vidhyapeeth University</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT Jabalpur</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">JNCT Bhopal</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">Rishiraj College</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">CEC Bilaspur</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies">LNCT Pharmacy</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT University</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT & Science</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Excellence</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MBA</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MCA</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Bhopal Indore Campus</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Vidhyapeeth University</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Jabalpur</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">JNCT Bhopal</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">Rishiraj College</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">CEC Bilaspur</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Pharmacy</Link></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/companies">Companies</Link></li>
-                            <li class="nav-item"><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/career">Career</Link></li>
-                            <li class="nav-item"><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/contactus">Contact Us</Link></li>
-                            <li class="nav-item"><Link class="nav-link active text-light fs-5 ps-3 fw-medium" to="/login">Login</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/companies">Companies</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/career">Career</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/alumni">Alumni</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/contactus">Contact Us</Link></li>
+                            <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/login">Login</Link></li>
                         </ul>
                     </div>
                 </div>

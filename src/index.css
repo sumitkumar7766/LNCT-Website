@@ -14,27 +14,161 @@ code {
 
 /* Styles to make dropdown appear on hover */
 .dropdown:hover .dropdown-menu {
-  display: block; 
-}
-
-/* Optional: Style to make dropdown hide on mouseout of parent dropdown */
-.dropdown:hover .dropdown-toggle {
+  display: block;
 }
 
 /* Added style to hide menu when no longer hovering over parent*/
 .dropdown .dropdown-menu {
-  display: none; 
+  display: none;
 }
 
 #navbarDropdown {
   width: 250px !important;
 }
 
-.nav-item:hover {
-  background-color: rgb(33, 33, 33);
-  transition: background-color 0.5s;
-  .nav-link:hover {
-    color: white;
-    transition: color 0.5s;
+#dropdownElement:hover {
+  background-color: rgb(77, 77, 77);
+  color: white;
+  transition: color 0.5s;
+
+}
+
+#imageofNo1Logo {
+  width: 100%;
+
+}
+
+.paragraphColorNo1 {
+  color: #f8f9fa;
+  text-align: justify;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .paragraphColorNo1 {
+    font-size: 15px;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
   }
+
+  #logo360Visual {
+    width: 100px !important;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .paragraphColorNo1 {
+    font-size: 13px;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  #logo360Visual {
+    width: 100px !important;
+  }
+
+  .container {
+    margin-top: 0px !important;
+  }
+
+  #missiondiv {
+    margin: 0px !important;
+  }
+
+}
+
+#imageofNo1Baner {
+  width: 75%;
+  margin-right: 0px;
+  padding-right: 0px;
+  border-radius: 100%;
+  animation: zoomIn 2s infinite;
+
+}
+
+@keyframes zoomIn {
+  0% {
+    filter: none;
+  }
+
+  50% {
+    filter: saturate(8);
+  }
+
+  100% {
+    filter: none;
+  }
+}
+
+#imageof32YRS {
+  width: 10% !important;
+}
+
+#animaterighttoLeft img {
+  animation: rightToLeft 10s linear infinite;
+  position: relative;
+}
+
+#animaterighttoLeftmother {
+  overflow: hidden;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(1100%);
+  }
+
+  100% {
+    transform: translateX(-1000%);
+  }
+}
+
+@media (max-width: 480px) {
+
+  #imageof32YRS {
+    width: 8% !important;
+    margin: 10px !important;
+    padding: 0px !important;
+  }
+}
+
+#missionulofli {
+  font-size: 17px;
+}
+
+.btnofthenews {
+  height: 60px;
+  width: 230px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  background-color: yellowgreen;
+  border: none;
+  color: black;
+}
+
+.hrofthenews {
+  border-top: 3px solid rgb(242, 255, 4);
+  font-weight: bold;
+  color: rgb(238, 255, 0);
+}
+
+
+
+.card {
+  border: none !important;
+}
+
+#Experiencehead {
+  font-size: 3rem;
+  background: linear-gradient(90deg, red, orange, yellow, green, rgb(0, 255, 247), rgb(174, 61, 255), violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#Experienceimg img {
+  width: 100%;
 }
