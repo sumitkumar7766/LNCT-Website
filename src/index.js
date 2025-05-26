@@ -8,6 +8,7 @@ import Footer from './landing_page/Footer';
 import Home from './landing_page/home/HomePage';
 import PageNotFound from './landing_page/PageNotFound';
 import LNCTUPage from './landing_page/LNCT-University/LNCTUPage';
+import AboutUs from './landing_page/About/AboutUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path='/' element={<Home />} />
       <Route path='/LNCTU' element={<LNCTUPage />} />
       <Route path='*' element={<PageNotFound />} />
+      <Route path='/aboutus' element={<AboutUs />} />
     </Routes>
   <Footer />
   </BrowserRouter>
