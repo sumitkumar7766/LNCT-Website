@@ -14,7 +14,6 @@ import Footer from "../Footer";
 function Home() {
     return (
         <>
-        <Navbar />
         <HeroSection />
         <HeroSection2 />
         <News />
@@ -23,7 +22,6 @@ function Home() {
         <Credo />
         <Experience />
         <Provides />
-        <Footer />
         </>
     )
 }

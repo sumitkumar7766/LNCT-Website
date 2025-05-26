@@ -29,12 +29,12 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-lg-0">
-                            <li class="nav-item "><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/home">Home</Link></li>
+                            <li class="nav-item "><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/">Home</Link></li>
                             <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/aboutus">About Us</Link></li>
                             <li class="nav-item dropdown text-light">
-                                <a class="nav-link dropdown-toggle text-light fs-6 ps-3 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link class="nav-link dropdown-toggle text-light fs-6 ps-3 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Institutions
-                                </a>
+                                </Link>
                                 <ul class="dropdown-menu" id="navbarDropdown">
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT University</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT</Link></li>

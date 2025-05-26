@@ -179,7 +179,7 @@ code {
 }
 
 #wehave {
-    background: linear-gradient(90deg, red,rgb(0, 255, 247), rgb(174, 61, 255), violet);
+  background: linear-gradient(90deg, red, rgb(0, 255, 247), rgb(174, 61, 255), violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -252,6 +252,14 @@ code {
 
 #TeleGram {
   background: linear-gradient(90deg, rgb(0, 213, 255), rgb(0, 166, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#DangerIcon {
+  background: linear-gradient(90deg, rgb(255, 82, 82), rgb(255, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -6,10 +6,16 @@ import './index.css';
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 import Home from './landing_page/home/HomePage';
+import PageNotFound from './landing_page/PageNotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Home />
+  <Navbar />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='*' element={<PageNotFound />} />
+    </Routes>
+  <Footer />
   </BrowserRouter>
 );
