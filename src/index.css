@@ -106,8 +106,12 @@ code {
   width: 10% !important;
 }
 
+#imageof32YRS1 {
+  width: 15% !important;
+}
+
 #animaterighttoLeft img {
-  animation: rightToLeft 10s linear infinite;
+  animation: rightToLeft 15s linear infinite;
   position: relative;
 }
 
@@ -117,18 +121,18 @@ code {
 
 @keyframes rightToLeft {
   0% {
-    transform: translateX(1100%);
+    transform: translateX(700%);
   }
 
   100% {
-    transform: translateX(-1000%);
+    transform: translateX(-700%);
   }
 }
 
 @media (max-width: 480px) {
 
   #imageof32YRS {
-    width: 8% !important;
+    width: 10% !important;
     margin: 10px !important;
     padding: 0px !important;
   }
@@ -264,4 +268,72 @@ code {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+#univerText {
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+#Admisionbutt {
+  background-color: #68f7e1;
+  height: 3rem !important;
+}
+
+#btnDisplayAdmi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bodyTextUniver {
+  background: linear-gradient(90deg, red, orange, yellow, rgb(0, 255, 247), rgb(197, 115, 255), violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#MotherAnumDU {
+  overflow: hidden;
+}
+
+#animateDownToUP {
+  height: 500px;
+  overflow: hidden;
+}
+
+#animateDownToUP img{
+  animation: DownToUp 20s linear infinite;
+  position: relative;
+}
+
+@keyframes DownToUp {
+  0% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(-700%);
+  }
+}
+
+#animateDownToUP2 {
+  height: 500px;
+  overflow: hidden;
+}
+
+#animateDownToUP2 img{
+  animation: DownToUp 15s linear infinite;
+  position: relative;
+}
+
+@keyframes DownToUp {
+  0% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(-350%);
+  }
 }

@@ -32,11 +32,11 @@ function Navbar() {
                             <li class="nav-item "><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/">Home</Link></li>
                             <li class="nav-item"><Link class="nav-link active text-light fs-6 ps-3 fw-bold" to="/aboutus">About Us</Link></li>
                             <li class="nav-item dropdown text-light">
-                                <Link class="nav-link dropdown-toggle text-light fs-6 ps-3 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link class="nav-link dropdown-toggle text-light fs-6 ps-3 fw-bold" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                                     Institutions
                                 </Link>
                                 <ul class="dropdown-menu" id="navbarDropdown">
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT University</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTU" id="dropdownElement">LNCT University</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT & Science</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Excellence</Link></li>
