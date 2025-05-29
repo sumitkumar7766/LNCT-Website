@@ -1,29 +1,5 @@
 import React, { useState } from 'react';
-
-const companies = [
-    ['Karvy stock broking ltd', 'Bajaj', 'Dainik Bhaskar', 'Nav Duniya'],
-    ['HDFC Life', 'ICICI', 'Cavin care', 'Orient paper mills'],
-    ['Godrej & boyce Mfg. Co. ltd', 'Ascent advisory', 'Ixeet software solutions pvt.ltd', 'Money capital'],
-    ['Aviam technologies', 'Seac Developers pvt.ltd', 'Aura builders', 'Bucks gainer'],
-    ['Jaro education', 'Shield research', 'Birla sun life', 'Star India']
-];
-
-const courses = [
-  'Computer science engineering',
-  'CS (IOT & Cyb. Sec. including Blockchain Technology)',
-  'CS (Artificial Intelligence and Machine Learning)',
-  'Artificial Intelligence and Data Science',
-  'Mechanical Engineering',
-  'Electrical & Electronics',
-  'Civil Engineering',
-  'Electronics and Communication Engineering',
-  'Electrical Engineering',
-  'VLSI Design -M.E./M.TECH',
-  'Thermal Engineering – M.E./M.TECH',
-  'Power Electronics – M.E./M.TECH',
-  'Computer Science & Engineering – M.E./M.TECH',
-  'Construction Technology And Management – M.E./M.TECH'
-];
+import { Link } from 'react-router-dom';
 
 const TabbedCardLNCTS = () => {
     const [activeTab, setActiveTab] = useState('Engineering');
