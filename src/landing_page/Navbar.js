@@ -40,7 +40,7 @@ function Navbar() {
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCT" id="dropdownElement">LNCT</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTS" id="dropdownElement">LNCT & Science</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTE" id="dropdownElement">LNCT Excellence</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MBA</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTMBA" id="dropdownElement">LNCT MBA</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MCA</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Bhopal Indore Campus</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Vidhyapeeth University</Link></li>

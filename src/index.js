@@ -12,6 +12,7 @@ import AboutUs from './landing_page/About/AboutUs';
 import LNCTPage from './landing_page/LNCT/LNCTPage';
 import LNCTSPage from './landing_page/LNCT&S/LNCTSPage';
 import LNCTEPage from './landing_page/LNCTE/LNCTEPage';
+import LNCTMBAPage from './landing_page/LNCTMBA/LNCTMBAPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path='/LNCT' element={<LNCTPage />} />
       <Route path='/LNCTS' element={<LNCTSPage />} />
       <Route path='/LNCTE' element={<LNCTEPage />} />
+      <Route path='/LNCTMBA' element={<LNCTMBAPage />} />
     </Routes>
   <Footer />
   </BrowserRouter>
