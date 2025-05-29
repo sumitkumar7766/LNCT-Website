@@ -9,6 +9,7 @@ import Home from './landing_page/home/HomePage';
 import PageNotFound from './landing_page/PageNotFound';
 import LNCTUPage from './landing_page/LNCT-University/LNCTUPage';
 import AboutUs from './landing_page/About/AboutUs';
+import LNCTPage from './landing_page/LNCT/LNCTPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path='/LNCTU' element={<LNCTUPage />} />
       <Route path='*' element={<PageNotFound />} />
       <Route path='/aboutus' element={<AboutUs />} />
+      <Route path='/LNCT' element={<LNCTPage />} />
     </Routes>
   <Footer />
   </BrowserRouter>
