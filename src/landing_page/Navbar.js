@@ -38,7 +38,7 @@ function Navbar() {
                                 <ul class="dropdown-menu" id="navbarDropdown">
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTU" id="dropdownElement">LNCT University</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCT" id="dropdownElement">LNCT</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT & Science</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTS" id="dropdownElement">LNCT & Science</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Excellence</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MBA</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT MCA</Link></li>

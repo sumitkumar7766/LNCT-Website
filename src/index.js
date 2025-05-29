@@ -10,6 +10,7 @@ import PageNotFound from './landing_page/PageNotFound';
 import LNCTUPage from './landing_page/LNCT-University/LNCTUPage';
 import AboutUs from './landing_page/About/AboutUs';
 import LNCTPage from './landing_page/LNCT/LNCTPage';
+import LNCTSPage from './landing_page/LNCT&S/LNCTSPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
       <Route path='*' element={<PageNotFound />} />
       <Route path='/aboutus' element={<AboutUs />} />
       <Route path='/LNCT' element={<LNCTPage />} />
+      <Route path='/LNCTS' element={<LNCTSPage />} />
     </Routes>
   <Footer />
   </BrowserRouter>
