@@ -23,7 +23,7 @@ function Navbar() {
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
-                        style={{backgroundColor: "white"}}
+                        style={{ backgroundColor: "white" }}
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -43,7 +43,7 @@ function Navbar() {
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTMBA" id="dropdownElement">LNCT MBA</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTMCA" id="dropdownElement">LNCT MCA</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTINDORE" id="dropdownElement">LNCT Bhopal Indore Campus</Link></li>
-                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Vidhyapeeth University</Link></li>
+                                    <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/LNCTVID" id="dropdownElement">LNCT Vidhyapeeth University</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">LNCT Jabalpur</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">JNCT Bhopal</Link></li>
                                     <li class="nav-item"><Link class="nav-link active ps-3 fw-medium" to="/companies" id="dropdownElement">Rishiraj College</Link></li>

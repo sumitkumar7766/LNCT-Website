@@ -15,6 +15,7 @@ import LNCTEPage from './landing_page/LNCTE/LNCTEPage';
 import LNCTMBAPage from './landing_page/LNCTMBA/LNCTMBAPage';
 import LNCTMCAPage from './landing_page/LNCTMCA/LNCTMCAPage';
 import LNCTINDOREPage from './landing_page/LNCTINDORE/LNCTINDOREPage';
+import VidhyapeethPage from './landing_page/LNCTVidhyapeeth/VidhyapeethPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
       <Route path='/LNCTMBA' element={<LNCTMBAPage />} />
       <Route path='/LNCTMCA' element={<LNCTMCAPage />} />
       <Route path='/LNCTINDORE' element={<LNCTINDOREPage />} />
+      <Route path='/LNCTVID' element={<VidhyapeethPage />} />
     </Routes>
   <Footer />
   </BrowserRouter>
