@@ -337,3 +337,8 @@ code {
     transform: translateY(-350%);
   }
 }
+
+.fontSizeOFCR {
+  font-size: 4rem; 
+  color: rgb(105, 240, 255);
+}
