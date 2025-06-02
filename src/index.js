@@ -17,6 +17,7 @@ import LNCTMCAPage from './landing_page/LNCTMCA/LNCTMCAPage';
 import LNCTINDOREPage from './landing_page/LNCTINDORE/LNCTINDOREPage';
 import VidhyapeethPage from './landing_page/LNCTVidhyapeeth/VidhyapeethPage';
 import LNCTJabalpurPage from './landing_page/LNCTJabalpur/LNCTJabalpurPage';
+import JNCTPage from './landing_page/JNCTBhopal/JNCTPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +36,7 @@ root.render(
       <Route path='/LNCTINDORE' element={<LNCTINDOREPage />} />
       <Route path='/LNCTVID' element={<VidhyapeethPage />} />
       <Route path='/LNCTJabalpur' element={<LNCTJabalpurPage />} />
+      <Route path='/JNCTBhopal' element={<JNCTPage />} />
     </Routes>
   <Footer />
   </BrowserRouter>

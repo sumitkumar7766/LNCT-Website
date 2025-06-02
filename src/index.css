@@ -342,3 +342,40 @@ code {
   font-size: 4rem; 
   color: rgb(105, 240, 255);
 }
+
+#victoryofSymbolehere{
+  font-size: 5rem;
+  align-items: end;
+  display: none;
+  transition: all 0.5s;
+}
+
+#forHovergetelement {
+  height: 17rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#forHovergetelement:hover {
+  #victoryofSymbolehere {
+    display: block;
+    animation: all1 0.2s linear;
+  }
+}
+
+@keyframes all1 {
+  0% {
+    transform: translateY(30%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+#DepartemntCard:hover {
+  border: #68f7e1;
+  background-color: #68f7e1;
+  border-radius: 10px;
+  cursor: pointer;
+}
