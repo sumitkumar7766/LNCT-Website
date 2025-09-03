@@ -8,7 +8,7 @@ export default function AcademicINDORE() {
                 <div className="col-12 col-lg-7">
                     <p className="text-center fs-5 pt-5 pt-md-0">Are you ready to embark on an incredible <b>Academic Journey ?</b> Look no further!  LNCT Bhopal Indore Campus is thrilled to announce the<b> Admission Open session</b> for the<b> academic year 2025-26</b></p>
                     <img src="media/LNCT/LNCTINDORE3.jpg" className="w-100" />
-                    <Link go="https://tour.lnct.ac.in/lnctindore/" className="text-center d-flex justify-content-center">
+                    <Link go="https://tour.lnct.ac.in/lnctindore" className="text-center d-flex justify-content-center" target="_blank">
                         <img src="media/images/360-Visual-Logo.png" style={{ width: "200px" }} className="m-0 p-0" />
                     </Link>
                 </div>
